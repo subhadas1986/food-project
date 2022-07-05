@@ -18,6 +18,9 @@ h1{
 .half-width img{
     width: 100%;
 }
+.orange-color{
+    color: orange;
+}
 section{
     display: flex;
 }
@@ -31,4 +34,25 @@ section{
 }
 .link-button:hover{
     background-image: linear-gradient(45deg, blue, skyblue);
+}
+section{
+    margin-bottom: 100px;
+}
+section h1, h2, h3{
+    color: rgb(92, 88, 88);
+}
+.my-images .half-width img{
+    width: 70%;
+
+}
+.my-images{
+    justify-content: center;
+    align-items: center;
+}
+.half-width h2{
+    font-size: 40px;
+}
+.bg-images{
+    background-image: url('images/shapes/7.png');
+    background-repeat: no-repeat;
 }
